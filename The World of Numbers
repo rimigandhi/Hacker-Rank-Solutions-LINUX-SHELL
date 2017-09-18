@@ -1,0 +1,11 @@
+#!/bin/bash
+read a
+read b
+add=$((a+b))
+subtract=$((a-b))
+multiply=$((a*b))
+divide=$((a/b))
+echo $add
+echo $subtract
+echo $multiply
+echo $divide
